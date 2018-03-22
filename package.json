@@ -1,0 +1,25 @@
+{
+  "name": "slackdash",
+  "version": "0.1.0",
+  "description": "An app for linking an Amazon Dash button to a Slack incoming webhook",
+  "repository": "https://github.com/cdanielsen/gbp.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "dash",
+    "slack"
+  ],
+  "author": "Christian Danielsen",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-safe": "^5.0.1",
+    "request": "2.83.0",
+    "request-promise": "4.2.2",
+    "win-node-dash-button": "https://github.com/cdanielsen/win-node-dash-button.git"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1"
+  }
+}
