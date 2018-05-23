@@ -1,5 +1,6 @@
 const fs = require("fs");
 const rp = require("request-promise");
+const { randomGreeting } = require("./messages")
 const { Server, DashButton } = require("win-node-dash-button");
 
 // Get needed environment variables
@@ -17,7 +18,7 @@ const callback = async () => {
       method: "POST",
       json: true,
       body: {
-        text: BOT_MESSAGE
+        text: `${randomGreeting()} ${BOT_MESSAGE}`
       }
     });
   } catch (err) {

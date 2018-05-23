@@ -27,3 +27,6 @@ If install was successful, edit the generated `.env` file with the appropriate v
 `npm start`
 
 Click your dash button. You should see your message in the Slack channel the webhook points to!
+
+// TODO:
+ - Test dumping stderr to a file with NSSM. Test slack errors / syntax errors on startup for better debugging
