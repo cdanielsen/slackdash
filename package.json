@@ -5,7 +5,8 @@
   "repository": "https://github.com/cdanielsen/gbp.git",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:debug": "SET \"DASH_DEBUG=true\" && node index.js"
   },
   "keywords": [
     "dash",

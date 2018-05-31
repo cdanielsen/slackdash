@@ -2,7 +2,7 @@ const greetings = [
   'Smooth jams!',
   'A hoy hoy!',
   'Booya!',
-  'Slick Scuba Steve!',
+  'Holy COW!',
   'Wut Wut!',
   'Awwwww yeah!',
   'This. Just. Happened!',
